@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorAccent"
+        app:title="一个梨子"
+        app:navigationIcon="@drawable/ic_home"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        app:tabIndicatorColor="@color/item_scroll"
+        app:tabIndicatorHeight="10dp"
+        app:tabSelectedTextColor="@color/item_scroll"
+
+        >
+        
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabItem1"
+            android:icon="@drawable/ic_home"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabItem2"
+            android:icon="@drawable/ic_home"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabItem3"
+            android:icon="@drawable/ic_home"
+            />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabItem4"
+            android:icon="@drawable/ic_home"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabItem6"
+            android:icon="@drawable/ic_home"
+            />
+
+    </android.support.design.widget.TabLayout>
+
+
+</LinearLayout>
